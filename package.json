@@ -1,0 +1,48 @@
+{
+  "name": "express-session-cache-manager",
+  "version": "1.0.0",
+  "description": "express session support using node-cache-manager",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d build",
+    "test": "standard && DEBUG=session-cache-manager jest --verbose --coverage",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theogravity/express-session-cache-manager.git"
+  },
+  "author": "Theo Gravity <theo@suteki.nu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theogravity/express-session-cache-manager/issues"
+  },
+  "homepage": "https://github.com/theogravity/express-session-cache-manager#readme",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "jest": {
+    "transform": {
+      ".js": "<rootDir>/node_modules/babel-jest"
+    },
+    "testRegex": ".spec.js$"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.4.0",
+    "cache-manager": "2.4.0",
+    "cache-manager-memory-store": "^1.0.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-session": "1.15.2",
+    "jest-cli": "^19.0.2",
+    "request": "^2.81.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "debug": "2.6.6"
+  }
+}
