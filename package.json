@@ -1,6 +1,6 @@
 {
   "name": "express-session-cache-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "express session support using node-cache-manager",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "test": "standard && DEBUG=session-cache-manager jest --verbose --coverage",
     "prepublish": "npm run build"
   },
+  "keywords": ["express", "session", "connect", "cache-manager"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theogravity/express-session-cache-manager.git"
