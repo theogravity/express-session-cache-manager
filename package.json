@@ -29,6 +29,12 @@
     },
     "testRegex": ".spec.js$"
   },
+  "standard": {
+    "ignore": [
+      "coverage/",
+      "build/"
+    ]
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-jest": "^19.0.0",
