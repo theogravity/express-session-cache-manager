@@ -1,5 +1,7 @@
 # express-session-cache-manager
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com) [![Build Status](https://travis-ci.org/theogravity/express-session-cache-manager.svg?branch=master)](https://travis-ci.org/theogravity/express-session-cache-manager) [![npm version](https://badge.fury.io/js/express-session-cache-manager.svg)](https://badge.fury.io/js/express-session-cache-manager)
+
 [express-session](https://www.npmjs.com/package/express-session) support using [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager),
 which supports a [variety of storage engines](https://github.com/BryanDonovan/node-cache-manager#store-engines).
 
